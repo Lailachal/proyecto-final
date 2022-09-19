@@ -1,0 +1,111 @@
+/* media queries */
+@media (max-width: 768px) {
+  .nosotros {
+    text-align: left;
+    width: 270px;
+    font-size: smaller;
+    margin-left: 80px; } }
+
+@media (max-width: 992px) {
+  .nosotros {
+    position: static;
+    margin-left: 60px;
+    width: 85%;
+    text-align: center;
+    font-size: medium; } }
+
+/*pseudo clases */
+a:hover {
+  background-color: fuchsia;
+  font-size: larger; }
+
+body {
+  padding-top: 88px;
+  background-image: url(../img/rosa.jpg);
+  font-style: normal;
+  font-size: medium;
+  text-align: center;
+  /* estilos de carrusel*/
+  /*estilos de producto */ }
+  body header nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  body header h1 {
+    font-size: xx-large;
+    color: #d13c6e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #e4e4a9; }
+  body .slide {
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  body .card-body h2 {
+    font-size: larger; }
+  body .card-body h3 {
+    font-size: larger; }
+
+/* estilos de prensa */
+.revista {
+  margin-bottom: 40px; }
+
+/* estilos de Nosotros */
+p {
+  background-color: #ecec9f;
+  margin: 100px;
+  padding: 150px;
+  border-style: solid;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: #e709e7; }
+
+footer h2 {
+  text-align: center;
+  background-color: #ecec9f;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #e709e7;
+  margin: 20px;
+  padding: 20px; }
+
+footer h4 {
+  text-align: center;
+  background-color: #ecec9f;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #e709e7;
+  margin: 20px;
+  padding: 20px; }
+
+/*estilos de contacto*/
+.formulario {
+  text-align: center;
+  color: #a36a7d;
+  background-color: #ecec9f;
+  display: inline-block;
+  width: 90%;
+  height: 350px;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-right: 170px;
+  margin-bottom: 150px;
+  border-style: solid; }
+  .formulario label {
+    margin: 10px; }
+
+.regular {
+  background-color: fuchsia;
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: cornsilk; }
+
+.instagram {
+  background-color: #d13c6e;
+  margin: 20px;
+  padding: 30px;
+  text-align: center; }
+  .instagram a {
+    font-size: large;
+    color: cornsilk; }
